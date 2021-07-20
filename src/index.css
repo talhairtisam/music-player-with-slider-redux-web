@@ -1,0 +1,155 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira-sens', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #4fe4dc;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+}
+
+.Player{
+  display: block;
+  background-color: bisque;
+  padding: 50px;
+  border-radius: 15px;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.Player > h2{
+  color: rgb(161, 106, 106);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  padding: 5px;
+}
+
+.Player > p {
+  color: #AAA;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.song-img{
+  position: relative;
+  width: fit-content;
+  margin: 50px auto;
+
+}
+
+.song-img img{
+  display: block;
+  margin: 0 auto;
+
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10%;
+}
+
+.songDetail h3{
+  color: #4b4609;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.songDetail h4{
+  color: #635c13;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.playerControl{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+
+}
+
+.playerControl .centerBtn{
+  display: flex;
+  margin: 0 30px;
+  padding: 20px;
+  border-radius: 50%;
+  color: white;
+  border: none;
+  background: rgb(168, 83, 83);
+  outline: none;
+}
+
+.playerControl .skipBtn{
+  display: flex;
+  margin: 0 2px;
+  padding: 9px;
+  border-radius: 50%;
+  color: white;
+  border: none;
+  background: rgb(168, 83, 83);
+  outline: none;
+}
+
+
+.playerControl .centerBtn:hover{
+  cursor: pointer;
+  background: rgb(64, 100, 86);
+}
+
+.playerControl .skipBtn:hover{
+  cursor: pointer;
+  background: rgb(64, 100, 86);
+}
+
+.playerControl .centerBtn:active{
+  cursor: pointer;
+  background: rgb(155, 127, 37);
+}
+
+.playerControl .skipBtn:active{
+  cursor: pointer;
+  background: rgb(155, 127, 37);
+}
+
+.slider{
+  display: flex;
+}
+
+.slider >input{
+  width: 100%;
+  margin: 15px;
+}
+
+.slider > p{
+  margin: 15px 0;
+}
+
+
+
+
+
+
+
